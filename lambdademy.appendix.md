@@ -19,7 +19,7 @@ thẻ đóng(<tag>) và thẻ mở(<tag>).
 5. Attributes(thuộc tính) là các tên nằm bên trong thẻ dùng để bổ sung thông tin cho thẻ. <tag nameAttributes="valueAttributes";...>
        VD: <meta charset="utf-8"/>
 
-6. 
+6. Form nhập liệu là một phần đặc biệt trong trang web, chúng ta sử dụng form để thu nhập thông tin từ người dùng. Form có thể chứa rất nhiều các thành phần HTML mà người dùng có thể sử dụng để nhập thông tin vào.
 
 7. Thẻ div(division) là thẻ dùng để gom nhóm nhiều phần tử. Tạo bố cục cho Wedsite. khi ta dùng thẻ div nó sẽ chia nội dung thành các khu
 vực khác nhau. 
@@ -46,7 +46,8 @@ Các thuộc tính thường có thể được thay đổi, thêm và xóa, nh�
 10. Qurery string là tập hợp các data ở dạng key=value mà ta được vào URL của Wedsite. Query string truyền tải dữ liệu lên sever và gọi đây
 là phương thức GET ( là hình thức client gửi data lên sever bằng cách bổ sung các tham số phía sau URL).
 
-11. 
+11. Pixel là phép đo tĩnh,  EM là các phép đo tương đối. Kích thước của EM phụ thuộc vào thuộc tính đối chiếu của nó. Nếu kích thước văn bản là 16 pixel, 1,5 EM sẽ là 24 pixel (1,5 * 16). Nôm na là pixel là phép do mặt định của tất cả các thuộc tính đều như một, còn EMs thì
+mỗi thuộc tính sẽ hiển thị một kích thước khác nhau.
 
 12. Tính thừa kế trong CSS giúp tối ưu hóa dung lượng của file.css. Sử dụng lại cho nhiều trang trong wedsite. Được áp dụng cho nhiều vùng trên một trang, có thể 
 dùng cho nhiều dự án khác.
@@ -60,7 +61,15 @@ dùng cho nhiều dự án khác.
         2. internal (được đặt trong mục <head> của một trang nhất định)
         3. external ( tạo 1 file.css riêng biệt)
 
-15. 
+15. Bootstrap là một front-end framework miễn phí giúp quá trình phát triển web được nhanh và dễ dàng hơn. Bootstrap bao gồm các mẫu thiết kế dựa trên HTML và CSS như typography, forms, buttons, tables, navigation, modals, image carousels… cũng như các plugin JavaScript tùy chọn. Bootstrap cũng cung cấp cho bạn khả năng tạo ra các responsive designs một cách dễ dàng.
+   * Lý do nên dùng
+- Dễ sử dụng: Bất kỳ ai có kiến thức cơ bản về HTML và CSS đều có thể bắt đầu sử dụng Bootstrap.
+
+- Các tính năng đáp ứng (Responsive features): responsive CSS của Bootstrap điều chỉnh cho điện thoại, máy tính bảng và máy tính để bàn.
+
+- Cách tiếp cận Mobile-first: Trong Bootstrap 3, mobile-first styles là một phần của core framework.
+
+- Khả năng tương thích trình duyệt: Bootstrap tương thích với tất cả các trình duyệt hiện đại (Chrome, Firefox, Internet Explorer, Edge, Safari và Opera).
 
 
 
